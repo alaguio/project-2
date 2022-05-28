@@ -1,0 +1,16 @@
+/* ----- Web Fonts */
+@font-face {
+    font-family: "forma-djr-display, sans-serif";
+    src: url('./fonts/forma-djr-display.woff')
+    format('woff');
+}
+
+/* ------ Base Styles (display, font,  color) */
+h1, h2, h3 {
+    font-family: forma-djr-display, sans-serif;
+}
+
+/* ------ Main Styles (padding, margin, width, align) */
+
+
+/* ------ Media Queries */
