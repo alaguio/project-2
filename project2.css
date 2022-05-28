@@ -8,6 +8,13 @@
 /* ------ Base Styles (display, font,  color) */
 h1, h2, h3 {
     font-family: forma-djr-display, sans-serif;
+    letter-spacing: 1px;
+}
+p {
+    font-family: forma-djr-display;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
 }
 
 /* ------ Main Styles (padding, margin, width, align) */
