@@ -8,6 +8,7 @@
 /* ------ Base Styles (display, font,  color) */
 * {
     background-color: rgb(245, 244, 241);
+    display: flexbox;
 }
 h1, h2, h3, li{
     font-family: forma-djr-display, sans-serif;
@@ -37,8 +38,10 @@ p {
 #wrapper{
     display: flexbox;
 }
-#nav {
-    display: flex;
+ul {
+    padding: 0px, 0px, 0px, 40px;
+    margin: 0 auto;
+    display: flexbox;
     flex-direction: column;
 }
 .item {
@@ -51,9 +54,6 @@ body {
 }
 img {
     max-width: 100%;
-}
-.child {
-    display: flexbox;
 }
 header {
     display: flex;
