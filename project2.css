@@ -6,10 +6,14 @@
 }
 
 /* ------ Base Styles (display, font,  color) */
+* {
+    background-color: rgb(245, 244, 241);
+}
 h1, h2, h3, li{
     font-family: forma-djr-display, sans-serif;
     letter-spacing: 1px;
     text-align: center;
+    color: rgb(61, 60, 60);
 }
 li {
     font-size: 22px;
@@ -30,12 +34,29 @@ p {
 }
 
 /* ------ Main Styles (padding, margin, width, align) */
+#wrapper{
+    display: flexbox;
+}
 #nav {
     display: flex;
     flex-direction: column;
 }
 .item {
-    padding: 12px;
-    margin: 3px;
+    padding: 5%;
+    margin: 2% 0%;
+}
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+.child {
+    display: flexbox;
+}
+header {
+    display: flex;
+    justify-content: center;
 }
 /* ------ Media Queries */
