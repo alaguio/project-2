@@ -28,11 +28,6 @@ p {
 
 /* ------ Main Styles (padding, margin, width, align) */
 #wrapper {
-    margin: 0 auto;
+    display: flexbox;
 }
-p {
-    margin:auto;
-    text-alig;
-}
-
 /* ------ Media Queries */
