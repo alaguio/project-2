@@ -25,9 +25,17 @@ p {
     letter-spacing: 2px;
     text-align: center;
 }
+.item{
+    background-color: white;
+}
 
 /* ------ Main Styles (padding, margin, width, align) */
-#wrapper {
-    display: flexbox;
+#nav {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    padding: 12px;
+    margin: 3px;
 }
 /* ------ Media Queries */
